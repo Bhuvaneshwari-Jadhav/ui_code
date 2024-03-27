@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body
+    {
+      width: 50%;
+      min-height: 320px;
+      margin: auto;
+      border: 1px solid rgb(20, 17, 17);
+      color: white;
+    }
+    .program
+    {
+      min-height: 100px;
+      padding: 10px;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="program">
+    <h1>find duck number program</h1>  
+    <pre> #include&ltstdio.h&gt
+      int i=0;
+      int display(int a[])
+      {
+        if(i&lt5)
+        {
+          printf("%d ",a[i]);
+          i++;
+          display(a);
+        }
+      }
+      int main()
+      {
+        int a[5],i,len;
+        len=sizeof(a)/sizeof(a[0]);
+        printf("enter array values:");
+        for(i=0;i&ltlen;i++)
+        {
+          scanf("%d",&a[i]);
+        }
+        printf("display array : ");
+        display(a);
+        return 0;
+      }
+    </pre>
+    
+  </div>
+</body>
+</html>

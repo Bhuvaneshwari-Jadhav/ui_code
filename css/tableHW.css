@@ -1,0 +1,41 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box
+{
+  width: 80%;
+  min-height: 100px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 30px;
+}
+.menu h3
+{
+  margin-top: 10px;
+}
+table
+{
+  margin-top: 13px;
+  width: 700px;
+  text-align: center;
+  box-shadow: 2px 2px rgb(235, 227, 227);
+}
+table,th,td,tr
+{
+  padding: 30px;
+  /* border: 1px solid rgb(242, 234, 234); */
+  border-collapse: collapse;
+}
+th
+{
+  background-color: blue;
+  color: white;
+  font-size: 1.2em;
+}
+table td:nth-child(odd)
+{
+  background-color: rgb(221, 239, 242);
+}

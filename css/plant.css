@@ -1,0 +1,242 @@
+*
+{
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+}
+.wrapper
+{
+  width: 60%;
+  min-height: 500px;
+  background-color: rgb(250, 248, 248);
+  border: 2px solid rgb(229, 244, 248);
+}
+.main-menu 
+{
+  width: 100%;
+  min-height: 60px;
+}
+.main-menu 
+{
+  margin: 10px ;
+  background-image: url(../images/front.jfif);
+  height: 400px;
+  width: 98%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.main-menu .logo
+{
+  width: 40%;
+  padding: 10px;
+  float: right;
+  
+}
+.logo a
+{
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+}
+.logo a:hover
+{
+  background-color: rgb(227, 177, 82);
+}
+.main-menu .heading h1
+{
+  padding: 110px;
+  text-align: center;
+  font-size:4em;
+  
+}
+.main-menu .heading h1 p
+{
+  padding: 10px;
+  text-align: center;
+  font-size:20px;
+  color: rgb(94, 86, 86);
+} 
+.menu 
+{
+  width: 100%;
+  min-height: 100px;
+  margin-top: 10px;
+}
+.menu h1
+{
+  /* background-color: white; */
+  /* border: 1px solid black; */
+  height: 100px;
+  text-align: center;
+  
+}
+/* //////////// */
+.f-s-t
+{
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+}
+.f-s-t .first
+{
+  float: left;
+  width: 30%;
+  min-height: 100px;
+  border: 3px solid rgb(188, 180, 180);
+  box-shadow: 2px solid 2px;
+}
+.f-s-t .f1img img
+{
+  width: 100%;
+  height: 100px;
+} 
+.first .f1con
+{
+  text-align: center;
+  height: 100px;
+}
+/* //////////// */
+.f-s-t .second
+{
+  float: right;
+  width: 30%;
+  min-height: 100px;
+  border: 3px solid rgb(188, 180, 180);
+  box-shadow: 2px solid 2px;
+}
+.s1img img
+{
+  width: 100%;
+  height: 100px;
+}
+.second .s1con 
+{
+  text-align: center;
+  height: 100px;
+}
+/* /////////// */
+.f-s-t .third
+{
+  /* float: right; */
+  width: 30%;
+  min-height: 100px;
+  border: 3px solid rgb(188, 180, 180);
+  box-shadow: 2px solid 2px;
+}
+.s2img img
+{
+  width: 100%;
+  height: 100px;
+}
+.s2con
+{
+  text-align: center;
+  height: 100px;
+}
+.imgf
+{
+  width: 100%;
+  height: 200px;
+  /* border: 1px solid black; */
+  margin-top: 150px;
+}
+.imgf .disc
+{
+  width: 50%;
+  float: left;
+  height: 200px;
+  /* border: 1px solid black; */
+}
+.disc img
+{
+  width: 100%;
+  height: 200px;
+}
+.imgf .about
+{
+  width: 50%;
+  float: right;
+  height: 200px;
+  
+  /* border: 1px solid black; */
+} 
+.imgf h2
+{
+  text-align: center;
+}
+.imgf p
+{
+  padding: 20px;
+  height: 200px;
+  text-align: justify;
+}
+.subscibe
+{
+  width: 100%;
+  height: 200px;
+ background-color: rgb(227, 246, 232);
+}
+.subscibe h3
+{
+  text-align: center;
+  height: 100px;
+  font-size: 40px;
+  
+}
+.subscibe p
+{
+  font-size: 20px;
+}
+/* .subscibe h3 a
+{
+  border: 2px solid black;
+  margin-top: 2px;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 2px 70px;
+  font-size: 20px;
+} */
+/* .subscibe a
+{
+  margin-top: 4px;
+  border: 1px solid black;
+  text-align: justify;
+  text-decoration: none;
+  padding: 3px 70px;
+  background-color: beige;
+  font-size: 1.2em;
+} */
+/* .subscibe h4
+{
+  text-align: center;
+  border: 1px solid black;
+  text-decoration: none;
+} */
+.footer
+{
+  width: 100%;
+  height: 100px;
+}
+.footer .symbol img
+{
+  width: 5%;
+  height: 35px;
+  margin-top: 30px;
+  float: left;
+}
+.footer .logol a
+{
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 10px;
+  float: right;
+  font-weight: 3PX;
+}
+

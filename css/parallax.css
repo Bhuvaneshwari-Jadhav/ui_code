@@ -1,0 +1,75 @@
+/* *
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+div
+{
+   width: 100%;
+   height: 100vh;
+   background-color: antiquewhite;
+   border: 1px solid black;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   /* display: flex; */
+   background-attachment: fixed;
+
+}
+ .bg1 
+{
+  background-image: url(../images/balc.webp);
+} 
+.bg1 h2
+{
+  padding-top: 150px;
+  color: red;
+  text-shadow: 2px 4px  5px red;
+  font-size: 2.7em;
+}
+
+.bg2
+{
+  background-image: url(../images/mmmm.webp);
+}
+.bg2 h2
+{
+  padding-top: 150px;
+  color: red;
+  text-shadow: 2px 4px  5px red;
+  font-size: 2.7em;
+}
+.bg3
+{
+  background-image: url(../images/acs.jpg);
+}
+.bg3 h2
+{
+  padding-top: 150px;
+  color: red;
+  text-shadow: 2px 4px  5px red;
+  font-size: 2.7em;
+}
+.bg4
+{
+  background-image: url(../images/abc.webp);
+}
+.bg4 h2
+{
+  padding-top: 150px;
+  color: red;
+  text-shadow: 2px 4px  5px red;
+  font-size: 2.7em;
+}
+.bg5
+{
+  background-image: url(../images/qqqq.webp);
+}
+.bg5 h2
+{
+  padding-top: 150px;
+  color: red;
+  text-shadow: 2px 4px  5px red;
+  font-size: 2.7em;
+}

@@ -1,0 +1,40 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box
+{
+  width: 80%;
+  min-height: 100px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 50px;
+}
+table
+{
+   width: 700px;
+   text-align: center;
+}
+table,tr,th,td
+{
+   border: 1px solid black;
+   border-collapse: collapse;
+   text-align: center;
+   padding: 10px;
+}
+th{
+  color: brown;
+  font-size: 1.2em;
+}
+table tr:hover
+{
+  background-color: rgb(74, 178, 82);
+  color: rgb(238, 13, 13);
+}
+table tr:nth-child(odd)
+{
+  background-color: blanchedalmond;
+}
+

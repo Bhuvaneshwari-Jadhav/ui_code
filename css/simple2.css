@@ -1,0 +1,139 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container
+{
+   width: 60%;
+   margin: auto;
+   /* background-color: antiquewhite;  */
+   /* border: 2px solid#000; */
+   min-height: 100px;
+}
+.main-logo-menu
+{
+  width: 100%;
+  min-height: 60px;
+}
+.main-logo-menu .logo
+{
+  width: 43%;
+  height: 60px;
+  background-color: #7469B6;
+  float: left;
+}
+.logo h1
+{
+  color: white;
+  padding: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.main-logo-menu .menu
+{
+  width: 55%;
+  height: 60px;
+  background-color: #7469B6;
+  float: right;
+  padding-top: 20px;
+  
+}
+.menu a
+{
+  margin-top: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+}
+.menu a:hover
+{
+  background-color: antiquewhite;
+  color: rgb(61, 57, 57);
+}
+.slider
+{
+   width: 100%;
+   /* border: 2px solid#000; */
+   min-height: 300px;
+   margin-top: 10px;
+} 
+.slider img
+{
+  width: 100%;
+  height: 100%;
+}
+.main-con
+{
+    width: 100%;
+    /* border: 2px solid#000; */
+    min-height: 300px;
+    /* background-color: rgb(145, 214, 175); */
+    margin-top: 10px;
+}
+.main-con .sidebar
+{
+  width: 43%;
+  min-height: 300px;
+  background-color:#AD88C6;
+  float: left;
+}
+.sidebar h3
+{
+  padding: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.sidebar p
+{
+  padding: 5px;
+ 
+}
+.main-con .con
+{
+  width: 55%;
+  min-height: 300px;
+  background-color: #AD88C6;
+  float: right;
+}
+.con .heading
+{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+}
+.con .heading h2
+{
+  padding: 10px;
+}
+.con .text p
+{
+  padding: 10px;
+  text-align: justify;
+}
+.footer
+{
+  width: 100%;
+  min-height: 60px;
+  background-color:#7469B6;
+  margin-top: 10px;
+  
+}
+.footer h4
+{
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+}
+.clearfix::after
+{
+  content: '';
+  clear: both;
+  display: block;
+}
