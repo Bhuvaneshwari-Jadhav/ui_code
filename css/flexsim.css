@@ -1,0 +1,153 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body
+{
+  display: flex;
+  flex-direction: column;
+}
+.box
+{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-height: 300px;
+  border: 1px solid black;
+  margin: auto;
+}
+.logo-menu
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid red;
+  background-color:rgba(143, 52, 227, 0.516);
+  margin-bottom: 10px;
+}
+.logo 
+{
+  display: flex;
+  flex-direction: row;
+  width: 32%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.0vw;
+ 
+}
+.menu 
+{
+  display: flex;
+  flex-direction: row;
+  width: 68%;
+  min-height: 100px;
+  transition: 0.7s all ease-in;
+  transform: translateY(-10x);
+}
+.menu ul
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu ul li
+{
+  list-style-type: none;
+  transition: 0.7s all ease-in;
+  transform: translateY(-20x);
+}
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 2.2vw;
+}
+.menu ul li:hover
+{
+  background-color: beige;
+  color: black;
+}
+.slider
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 200px;
+  border: 3px solid #000;
+  justify-content: space-around;
+  align-items: center;
+}
+.sidebar-con
+{
+  display: flex;
+  flex-direction:row ;
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  margin-top: 10px;
+  justify-content: space-between;
+
+}
+.sidebar 
+{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 30%;
+  font-size: 2.3vw;
+  justify-content: space-around;
+  align-items: center;
+  
+  border: 1px solid black;
+  background-color: rgba(143, 52, 227, 0.516);
+}
+.con 
+{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 68%;
+  border: 1px solid black;
+  align-items: center;
+  background-color:rgba(143, 52, 227, 0.516);
+}
+.con p
+{
+  display: flex;
+  width: 100%;
+  font-size: 1.8vw;
+}
+.footer
+{
+  display: flex;
+  height: 50px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 1.3vw;
+  background-color: rgba(60, 6, 110, 0.516);
+}
+@media only screen and (max-width:600px)
+{
+  .box
+  {
+    width: 100%;
+  }
+  .menu 
+  {
+    flex-direction:cloun
+  }
+  .menu ul 
+  {
+    flex-direction: column;
+  }
+  .menu ul li:hover 
+  {
+    background-color: rgb(227, 224, 219);
+    color: brown;
+    font-size: 2vw;
+  }
+}
