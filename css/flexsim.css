@@ -138,7 +138,7 @@ body
   }
   .menu 
   {
-    flex-direction:cloun
+    flex-direction:column;
   }
   .menu ul 
   {
