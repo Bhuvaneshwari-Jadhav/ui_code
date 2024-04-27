@@ -1,0 +1,64 @@
+*
+{
+  padding: 0;
+  /* margin: auto; */
+  box-sizing: border-box;
+}
+.wrapper
+{
+  width: 80%;
+  min-height: 100vh;
+  border: 1px solid black;
+  display: grid;
+  margin: auto;
+  grid-template-areas: 
+  "header header header"
+  "hero main-con main-con"
+  "sitebar main-con main-con"
+  "sitebar extracon extracon"
+  "related related post"
+  "footer footer footer";
+  grid-template-rows: 0.3fr 1fr 1.5fr 0.8fr 0.3fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.header
+{
+  grid-area: header;
+  background-color: rgb(18, 43, 233);
+}
+.hero
+{
+  grid-area: hero;
+  background-color: blueviolet;
+}
+.main-con
+{
+  grid-area: main-con;
+  background-color: chartreuse;
+}
+.sitebar
+{
+  grid-area: sitebar;
+  background-color: coral;
+}
+.extracon
+{
+  grid-area: extracon;
+  background-color: darkorchid;
+}
+.related
+{
+  grid-area:related;
+  background-color: deeppink;
+}
+.post
+{
+  grid-area: post;
+  background-color: dodgerblue;
+}
+.footer
+{
+  grid-area: footer;
+  background-color: greenyellow;
+}

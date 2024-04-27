@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box
+{
+  width: 80%;
+  min-height: 100px;
+  margin: auto;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-tempplate-column:200px 1fr 300px  fr cover all the space*/
+  grid-template-rows: repeat(6,100px);
+  /* grid-row-gap: 10px;
+  grid-column-gap: 10px; */
+  grid-gap: 10px;
+  /* grid-auto-rows: 100px; */
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 60px 60px 683px 200px 600px 50px;
+
+}.b1
+{
+  background-color: brown;
+  color: white;
+  /* grid-row-start: 2;
+  grid-row-end: 3; */
+  /* grid-row: 2 / 3; */
+
+  /* grid-column-start: 3;
+  grid-column-end: 4; */
+  /* grid-column: 3 / 4; */
+  /* grid-area: 2 / 3 /3 / 4 ; */
+  grid-column: 1 / span 3;
+  /* grid-column: 1 / 4; */
+  /* grid-column: 1 / -1; */
+  border-radius: 10px;
+ 
+}
+.b1 h1{
+  padding:  10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.b2
+{
+  background-color: blueviolet;
+  color: white;
+  grid-column: 1 /-1;
+  padding-top: 10px;
+}
+
+.b2 a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  padding: 5px;
+
+}
+.b3
+{
+  background-color: blue;
+
+  color: white;
+  grid-column: 1 /-1;
+}
+.b3 img{
+  width: 1005;
+  height: 100%;
+  object-fit: cover;
+  /* justify-content: center;
+  align-items: center; */
+
+}
+.b4
+{
+  background-color:red;
+  color: white;
+  grid-column: 1/4;
+}
+.b5
+{
+  background-color: aquamarine;
+  color: white;
+  grid-column: 1/-1;
+}
+
+.b5{
+  background-color: cornflowerblue;
+  color: white;
+  grid-column: 1/-1;
+}
+.b5 .headertext
+{
+  min-height: 100px;
+  
+}
+.b6{
+  background-color: rgb(89, 0, 255);
+  color: white;
+  grid-column: 1/-1;
+  font-size: 0.8vw;
+  /* grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2; */
+  /* margin: auto; */
+  /* justify-content: center;
+  align-items: center;  */
+  padding: 20px 400px;
+  /* padding-left: 40px; */
+}
