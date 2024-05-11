@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    
+    a{
+      font-size: 1.4em;
+      text-decoration: none;
+    }
+    nav{
+      font-family: "Mukta", sans-serif;
+    }
+    ul{
+      
+      list-style-type: none;
+      margin: 0;
+      padding-left: 0;
+      border-radius: 10px;
+    }
+    li{
+      padding: 2rem;
+      position: relative;
+      background-color:#C40C0C;
+      text-decoration: none;
+      transition-duration: 0.9s;
+      float: left;
+
+    }
+    li a{
+      color: white;
+    }
+    ul li a:hover{
+      background-color: bisque;
+      color: red;
+      padding: 10px;
+    }
+    ul li ul{
+      background-color: blueviolet;
+      visibility: hidden;
+      opacity: 0;
+      min-width: 5rem;
+      position: absolute;
+      margin-top: 1rem;
+      left: 0;
+      display: none;
+    }
+    ul li:hover > ul,
+    ul li ul:hover
+    {
+      visibility: visible;
+      opacity: 1;
+      display: block;
+    }
+    ul li ul li{
+      clear: both;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <nav role="navigation">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Products</a>
+        <ul class="dropdown">
+          <li><a href="#">Bike</a></li>
+          <li><a href="#">Car</a></li>
+          <li><a href="#">Truck</a></li>
+          <li><a href="#">Bus</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+  </nav>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *
+    {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .wrapper
+    {
+      width: 80%;
+      min-height: 100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: auto auto auto ;
+      grid-template-rows: 100px 400px 100px;
+      border: 1px solid black;
+      grid-gap: 10px;
+    }
+    .b1
+    {
+      background-color: blueviolet;
+      grid-column-start: 1;
+      grid-column-end: 5;
+    }
+    .b2
+    {
+      /* background-color: rgb(43, 110, 226); */
+      grid-column-start: 1;
+      grid-column-end: 5;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 400px 400px 400px;
+    }
+    .box1
+    {
+      background-color: rgb(44, 152, 152);
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+    .box2
+    {
+      background-color: rgb(149, 142, 142);
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+    .box3
+     {
+      background-color:rgb(44, 152, 152) ;
+      grid-column-start: 4;
+      grid-column-end: 5;
+     }
+    .b3
+    {
+      background-color: cadetblue;
+      grid-column-start: 1;
+      grid-column-end: 5;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="b1">hgdf</div>
+    <div class="b2">
+      <div class="box1">bx1</div>
+      <div class="box2">bx2</div>
+      <div class="box3">bx3</div>
+    </div>
+    <div class="b3">fgfg</div>
+  </div>
+</body>
+</html>

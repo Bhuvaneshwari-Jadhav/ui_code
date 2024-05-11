@@ -1,0 +1,129 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper
+{
+  width: 80%;
+  min-height: 100px;
+  margin: auto;
+  border: 1px solid black;
+  display: grid;
+  grid-template-areas: "header header header header"
+  "slider box1 box2 box3"
+  "slider content content content"
+  "footer footer footer footer"
+  ;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 60px 200px auto 60px;
+  grid-gap: 10px;
+
+}
+.header
+{
+  grid-area: header;
+  background-color: blue;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100px 100px;
+  grid-template-areas: "logo menua";
+  
+}
+.logo
+{
+  grid-area: logo;
+}
+.logo h1{
+  padding: 10px;
+}
+.menua
+{
+  width: 100%;
+}
+.menua ul{
+ display: flex;
+}
+.menua ul li 
+{
+   padding: 20px;
+   font-size: 1.3vw;
+   list-style-type: none;
+}
+.menua ul li a:hover
+{
+   background-color: bisque;
+   color: brown;
+}
+.slider
+{
+  grid-area: slider;
+  background-color: rgb(144, 206, 214);
+  color: white;
+  width: 200px;
+}
+.slider img
+{
+  width: 100%;
+  height: 100%;
+}
+.box1
+{
+  grid-area: box1;
+  background-color: blanchedalmond;
+  color: white;
+}
+.box1
+{
+  grid-area: box1;
+  background-color: blanchedalmond;
+  color: white;
+}
+.box1 img{
+  width: 100%;
+  height: 100%;
+}
+.box2
+{
+  grid-area: box2;
+  background-color: blanchedalmond;
+  color: white;
+}
+.box2 img{
+  width: 100%;
+  height: 100%;
+}
+.box3
+{
+  grid-area: box3;
+  background-color: blanchedalmond;
+  color: white;
+}
+.box3 img
+{
+  width: 100%;
+  height: 100%;
+}
+.content
+{
+   background-color: blueviolet;
+   grid-area: content;
+   color: white;
+   width: 1010px;
+   font-size: 1.3vw;
+   padding: 10px;
+}
+.footer
+{
+  grid-area: footer;
+  background-color: blue;
+  color: white;
+}
+.footer h3
+{
+  text-align: center;
+  padding: 20px;
+  font-size: 1.4vw;
+}

@@ -1,0 +1,43 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper
+{
+  width: 80%;
+  min-height: 300px;
+  border: 1px solid black;
+  background-color: beige;
+  margin: auto;
+}
+.wrapper h1
+{
+ text-align: center;
+ margin-top: 20px;
+ color: red;
+ font-weight: bold;
+}
+p{
+  padding: 20px;
+  font-size: 1.3vw;
+  font-weight: bold;
+}
+ol
+{
+  padding-left: 90px;
+}
+ol li{
+  padding: 10px;
+}
+ol li a{
+  color: black;
+  font-size: larger;
+  text-decoration: none;
+}
+.wrapper img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
