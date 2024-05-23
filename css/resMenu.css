@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body,html{
+  width: 100%;
+  height:100vh;
+}
+nav{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(182, 135, 207);
+}
+label.logo
+{
+  font-size: 3.1vw;
+  line-height: 60px;
+  padding-left: 50px;
+}
+nav ul
+{
+  float: right;
+  list-style: none;
+}
+nav ul li
+{
+  display: inline-block;
+  line-height: 50px;
+}
+nav ul li a{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 1.4em;
+}
+.Active
+{
+  background-color: rgb(198, 198, 251);
+}
+#checkbtn
+{
+  float: right;
+  margin-right: 15px;
+  line-height: 55px;
+  display: none;
+  color: black;
+}
+#check
+{
+  display: none;
+}
+#check:checked ~ul
+{
+  left: 0;
+}
+@media only screen and (max-width:636px)
+ {
+  #checkbtn
+  {
+    display: block;
+  }
+
+  nav ul 
+  {
+    width: 100%;
+    height: 600px;
+    color: black;
+    position: fixed;
+    left: -100%;
+    top:80px;
+    background-color: rgb(193, 193, 251);
+    transition: 0.8s ease;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+}
+nav ul li
+{
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  margin: 30px;
+}
+label.logo 
+{
+  font-size: 4vw;
+}
+}

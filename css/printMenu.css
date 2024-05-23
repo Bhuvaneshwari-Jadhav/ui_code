@@ -1,0 +1,16 @@
+.wrapper
+{
+  background-color: bisque;
+}
+.heading h1
+{
+  color: red;
+}
+.logo
+{
+  display: none;
+}
+.image-box
+{
+  display: none;
+}
